@@ -39,6 +39,10 @@
 
 }
 
+.container__botao {
+    display: none;
+}
+
 .lista-menu__titulo, 
 .lista-menu__item {
     padding: 1em;
@@ -47,7 +51,6 @@
 }
 
 .lista-menu__titulo {
-    font-family: var(--fonte-menu);
     color: var(--laranja);
     font-size: 1rem;
     font-weight: 700;
@@ -60,7 +63,6 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
-    font-family: var(--fonte-menu);
     font-size: 1rem;
     font-weight: 400;
 }
