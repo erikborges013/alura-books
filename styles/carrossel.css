@@ -90,3 +90,41 @@
 .card__estrela {
     width: 6em;
 }
+
+.topicos {
+    background: var(--azul-degrade);
+    padding: 1.5em 1em;
+    text-align: center;
+}
+
+.topicos__titulo {
+    font-size: 1em;
+    font-weight: 300;
+    color: var(--branco);
+    margin-bottom: 2em;
+}
+
+.topicos__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.topicos__container-listas {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.topicos__listas-item {
+    background-color: var(--laranja);
+    padding: 1em 1em;
+    align-items: center;
+}
+
+.topicos__listas-item a{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--branco);
+}

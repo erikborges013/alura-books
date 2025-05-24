@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
+    <!--O charset serve para definir o caractere que deve ser interpretado pelo navegador-->
     <meta charset="UTF-8">
+    <!--O viewport serve para definir a escala da tela do dispositivo que abrirá p site-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Aqui define o titulo que fica na aba do site-->
     <title>Alura Books</title>
+    <!--Aqui é onde colocamos os estilos css-->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <!--Aqui é onde fica a folha de estilo externa do slide-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="container">
@@ -133,6 +139,27 @@
             </ul>
                 <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
+    </section>
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <div class="topicos__container">
+            <ul class="topicos__container-listas">
+                <li class="topicos__listas-item"><a href="#">Android</a></li>
+                <li class="topicos__listas-item"><a href="#">Marketing Digital</a></li>
+                <li class="topicos__listas-item"><a href="#">Agile</a></li>
+            </ul>
+            <ul class="topicos__container-listas">
+                <li class="topicos__listas-item"><a href="#">Startups</a></li>
+                <li class="topicos__listas-item"><a href="#">HTML & CSS</a></li>
+                <li class="topicos__listas-item"><a href="#">Python</a></li>
+            </ul>
+            <ul class="topicos__container-listas">
+                <li class="topicos__listas-item"><a href="#">OO</a></li>
+                <li class="topicos__listas-item"><a href="#">Java</a></li>
+            </ul>
+        </div>
+
     </section>
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
